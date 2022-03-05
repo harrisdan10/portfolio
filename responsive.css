@@ -1,5 +1,26 @@
+@media only screen and (min-width: 1400px) {
+    h3, p {
+        font-size: 88px;
+    }
+    
+    h1{
+        font-size: 108px;
+    }
 
-@media only screen and (min-width: 1200px) {
+    .alt{
+        font-size: 48px;
+    }
+
+    .home-logo{
+        width:600px;
+        height:600px;
+    }
+
+} 
+
+
+
+@media only screen and (max-width: 1200px) {
     h3, p {
         font-size: 68px;
     }
@@ -7,9 +28,21 @@
     h1{
         font-size: 88px;
     }
-}
 
-@media only screen and (min-width: 992px) {
+    .alt{
+        font-size: 38px;
+    }
+
+    .home-logo{
+        width:500px;
+        height:500px;
+    }
+
+
+} 
+
+
+@media only screen and (max-width: 992px) {
     h3, p {
         font-size: 48px;
     }
@@ -17,9 +50,19 @@
     h1{
         font-size: 68px;
     }
+
+    .alt{
+        font-size: 28px;
+    }
+
+    .home-logo{
+        width:400px;
+        height:400px;
+    }
+
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     h3, p {
         font-size: 28px;
     }
@@ -27,9 +70,20 @@
     h1{
         font-size: 48px;
     }
+
+    .alt{
+        font-size: 22px;
+    }
+
+    .home-logo{
+        width:350px;
+        height:350px;
+    }
+    
+
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (max-width: 576px) {
     h3, p {
         font-size: 18px;
     }
@@ -37,4 +91,14 @@
     h1{
         font-size: 38px;
     }
-}
+
+    .alt{
+        font-size: 14px;
+    }
+
+    .home-logo{
+        width:200px;
+        height:200px;
+    }
+
+} 

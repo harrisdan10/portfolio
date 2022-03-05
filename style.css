@@ -38,13 +38,12 @@ h1, h3 {
 
 p {
     color: var(--accent);
-    /* margin-top: -40px; */
-    /* padding-left: 100px; */
     text-align: center;
 }
 
 .alt{
     font-size: 28px;
+    margin-bottom: 200px;
 }
 
 h3, p {
@@ -54,3 +53,9 @@ h3, p {
 h1{
     font-size: 68px;
 }
+
+.home-logo{
+        width: 400px;
+        height: 400px;
+        margin-top: 100px;
+    }
