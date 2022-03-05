@@ -1,0 +1,40 @@
+
+@media only screen and (min-width: 1200px) {
+    h3, p {
+        font-size: 68px;
+    }
+    
+    h1{
+        font-size: 88px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    h3, p {
+        font-size: 48px;
+    }
+    
+    h1{
+        font-size: 68px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h3, p {
+        font-size: 28px;
+    }
+    
+    h1{
+        font-size: 48px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    h3, p {
+        font-size: 18px;
+    }
+    
+    h1{
+        font-size: 38px;
+    }
+}

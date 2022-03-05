@@ -1,0 +1,56 @@
+:root {
+    --accent: white;
+    --site_primary: black;
+    --site_secondary: gold;
+}
+
+body{
+    background-color: var(--site_primary);
+}
+
+nav {
+    background: linear-gradient(to right, var(--site_primary) , var(--site_secondary), var(--accent));
+    color: var(--site_primary);
+    font-size: 40px;
+}
+
+nav, p {
+    font-family: Dancing Script;
+}
+
+#link-logo{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+li {
+    margin-left: 150px;
+}
+
+
+h1, h3 {
+    color: var(--accent);
+    font-family: Major Mono Display;
+}
+
+
+
+p {
+    color: var(--accent);
+    /* margin-top: -40px; */
+    /* padding-left: 100px; */
+    text-align: center;
+}
+
+.alt{
+    font-size: 28px;
+}
+
+h3, p {
+    font-size: 48px;
+}
+
+h1{
+    font-size: 68px;
+}
