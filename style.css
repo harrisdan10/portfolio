@@ -5,13 +5,23 @@
 }
 
 body{
-    background-color: var(--site_primary);
+    word-wrap: break-word;
+}
+
+.bg-container{
+    background-image: url(./images/21535.jpg);
+    width:100vw;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position:absolute;
+    overflow: hidden;
 }
 
 nav {
-    background: linear-gradient(to right, var(--site_primary) , var(--site_secondary), var(--accent));
     color: var(--site_primary);
-    font-size: 40px;
+    font-size: 20px;
 }
 
 nav, p {
@@ -19,8 +29,8 @@ nav, p {
 }
 
 #link-logo{
-    width: 70px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
     margin-left: 20px;
 }
 
@@ -35,15 +45,13 @@ h1, h3 {
 }
 
 
-
 p {
     color: var(--accent);
     text-align: center;
 }
 
 .alt{
-    font-size: 28px;
-    margin-bottom: 200px;
+    font-size: 38px;
 }
 
 h3, p {
@@ -54,8 +62,90 @@ h1{
     font-size: 68px;
 }
 
-.home-logo{
-        width: 400px;
-        height: 400px;
-        margin-top: 100px;
+.home-name{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.home-p{
+    margin-top: 180px;
+}
+
+.star-container{
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+img[alt="star"] {
+    width:20px;
+    opacity:0;
+    animation: star 10s linear infinite;
+}
+
+img[alt="star"]:nth-child(1) {
+    animation-delay: 3s;
+}
+
+img[alt="star"]:nth-child(2) {
+    animation-delay: 8s;
+}
+
+img[alt="star"]:nth-child(3) {
+    animation-delay: 5s;
+}
+
+img[alt="star"]:nth-child(4) {
+    animation-delay: 1s;
+}
+
+img[alt="star"]:nth-child(5) {
+    animation-delay: 4s;
+}
+
+img[alt="star"]:nth-child(6) {
+    animation-delay: 2s;
+}
+
+img[alt="star"]:nth-child(7) {
+    animation-delay: 3s;
+}
+
+img[alt="star"]:nth-child(8) {
+    animation-delay: 7s;
+}
+
+img[alt="star"]:nth-child(9) {
+    animation-delay: 3s;
+}
+
+img[alt="star"]:nth-child(10) {
+    animation-delay: 1s;
+}
+
+@keyframes star {
+    0%{
+        transform: translateY(0);
+    } 
+    
+    25% {
+        opacity: 0.5;
     }
+
+    50%{
+        opacity: 1
+    }
+
+    75%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 0;
+        transform: translateY(-90vh);
+    }
+}
+
+
+
+
