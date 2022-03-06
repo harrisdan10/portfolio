@@ -1,0 +1,50 @@
+:root {
+    --accent: white;
+    --site_primary: black;
+    --site_secondary: gold;
+}
+
+.coding-bg-container{
+    background-image: url(./images/gold_galaxy__free_hd_wallpaper_by_luis_bello_d9cqly8-fullview.jpg);
+    width:100vw;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    overflow: scroll;
+    /* overflow: hidden; */
+}
+
+.code-h1{
+    font-size: 48px;
+    margin: 80px 0 50px 0;
+}
+
+.code-p1{
+    font-size:30px;
+    background-color: var(--site_secondary);
+    opacity: 0.65;
+    border-radius: 50px 0 50px 0;
+    margin-left: 50px;
+    padding-top: 20px;
+    color: var(--site_primary);
+    box-shadow: 5px 10px 20px var(--accent);
+}
+
+.code-img{
+    margin-top: 100px;
+    opacity: 0.65;
+    width:300px;
+    height:300px;
+}
+
+.lang-p{
+    color: var(--site_primary);
+    background-color: var(--accent);
+    font-size: 30px;
+    border-radius: 200px;
+    opacity: 0.65;
+    margin-right: 10px;
+}
+
